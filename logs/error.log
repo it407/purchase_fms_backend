@@ -31,3 +31,43 @@
   "error": "Issue PO not found for this indent",
   "stack": "Error: Issue PO not found for this indent\n    at updateIssuePoService (file:///D:/Botivate/PurchaseManagementSystem-FMS--main/backend/src/modules/issue-po/services.js:50:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async updateIssuePo (file:///D:/Botivate/PurchaseManagementSystem-FMS--main/backend/src/modules/issue-po/controller.js:48:20)"
 }
+
+[2026-02-02T11:05:40.972Z]
+{
+  "source": "WATI",
+  "error": "dayjs is not defined"
+}
+
+[2026-02-02T11:05:40.976Z]
+{
+  "api": "PUT /api/issue_po",
+  "error": "dayjs is not defined",
+  "stack": "ReferenceError: dayjs is not defined\n    at sendPOWhatsApp (file:///D:/Botivate/PurchaseManagementSystem-FMS--main/backend/src/utils/wati.js:23:40)\n    at updateIssuePo (file:///D:/Botivate/PurchaseManagementSystem-FMS--main/backend/src/modules/issue-po/controller.js:102:31)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+}
+
+[2026-02-02T11:05:50.973Z]
+{
+  "source": "WATI",
+  "error": "dayjs is not defined"
+}
+
+[2026-02-02T11:05:50.973Z]
+{
+  "api": "PUT /api/issue_po",
+  "error": "dayjs is not defined",
+  "stack": "ReferenceError: dayjs is not defined\n    at sendPOWhatsApp (file:///D:/Botivate/PurchaseManagementSystem-FMS--main/backend/src/utils/wati.js:23:40)\n    at updateIssuePo (file:///D:/Botivate/PurchaseManagementSystem-FMS--main/backend/src/modules/issue-po/controller.js:102:31)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+}
+
+[2026-02-02T11:26:55.299Z]
+{
+  "api": "PUT /api/issue_po",
+  "error": "column i.issue_date does not exist",
+  "stack": "error: column i.issue_date does not exist\n    at D:\\Botivate\\PurchaseManagementSystem-FMS--main\\backend\\node_modules\\pg-pool\\index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async updateIssuePo (file:///D:/Botivate/PurchaseManagementSystem-FMS--main/backend/src/modules/issue-po/controller.js:75:26)"
+}
+
+[2026-02-02T11:27:07.591Z]
+{
+  "api": "PUT /api/issue_po",
+  "error": "column i.issue_date does not exist",
+  "stack": "error: column i.issue_date does not exist\n    at D:\\Botivate\\PurchaseManagementSystem-FMS--main\\backend\\node_modules\\pg-pool\\index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async updateIssuePo (file:///D:/Botivate/PurchaseManagementSystem-FMS--main/backend/src/modules/issue-po/controller.js:75:26)"
+}

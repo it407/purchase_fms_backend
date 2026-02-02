@@ -70,28 +70,6 @@ export const getAllIndentsService = async () => {
 
 
 
-/* UPDATE */
-// export const updateIndentItemService = async (id, data) => {
-//   const {
-//     materialName,
-//     quantity,
-//     rate,
-//   } = data;
-
-//   const { rows } = await pool.query(updateIndentItemQuery, [
-//     materialName,
-//     quantity,
-//     rate,
-//     id,
-//   ]);
-
-//   if (rows.length === 0) {
-//     throw new Error("Indent not found");
-//   }
-
-//   return rows[0];
-// };
-
 
 
 export const updateIndentItemService = async (id, data) => {

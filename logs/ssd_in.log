@@ -240,3 +240,99 @@
     "mimetype": "application/pdf"
   }
 }
+
+[2026-02-02T11:05:40.896Z]
+{
+  "api": "PUT /api/issue_po",
+  "body": {
+    "indent_id": "29fdf21e-9c57-4c08-9e55-a2dee68ec2f9",
+    "issue_date": "2026-02-28",
+    "supplier_contact": "6264460405",
+    "mode_of_send": "WhatsApp"
+  },
+  "file": null
+}
+
+[2026-02-02T11:05:50.953Z]
+{
+  "api": "PUT /api/issue_po",
+  "body": {
+    "indent_id": "29fdf21e-9c57-4c08-9e55-a2dee68ec2f9",
+    "issue_date": "2026-02-28",
+    "supplier_contact": "6264460405",
+    "mode_of_send": "WhatsApp"
+  },
+  "file": null
+}
+
+[2026-02-02T11:11:22.609Z]
+{
+  "api": "PUT /api/issue_po",
+  "body": {
+    "indent_id": "53053087-fe5b-4250-b1cc-567645f882c8",
+    "issue_date": "2026-02-10 16:41:22",
+    "supplier_contact": "6264460405",
+    "mode_of_send": "WhatsApp"
+  },
+  "file": null
+}
+
+[2026-02-02T11:16:20.481Z]
+{
+  "api": "PUT /api/issue_po",
+  "body": {
+    "indent_id": "c9c429d5-fad0-442c-871b-d9a7621afcb8",
+    "issue_date": "2026-02-13 16:46:20",
+    "supplier_contact": "6264460405",
+    "mode_of_send": "WhatsApp"
+  },
+  "file": null
+}
+
+[2026-02-02T11:24:14.296Z]
+{
+  "api": "PUT /api/issue_po",
+  "body": {
+    "indent_id": "ddc10a08-c12a-43c9-ba86-fba5f1af2359",
+    "issue_date": "2026-02-05 16:54:14",
+    "supplier_contact": "6264460405",
+    "mode_of_send": "WhatsApp"
+  },
+  "file": null
+}
+
+[2026-02-02T11:26:55.228Z]
+{
+  "api": "PUT /api/issue_po",
+  "body": {
+    "indent_id": "4c0a8de5-878c-4956-add3-adeb094ebd20",
+    "issue_date": "2026-02-06 16:56:55",
+    "supplier_contact": "6264460405",
+    "mode_of_send": "WhatsApp"
+  },
+  "file": null
+}
+
+[2026-02-02T11:27:07.470Z]
+{
+  "api": "PUT /api/issue_po",
+  "body": {
+    "indent_id": "4c0a8de5-878c-4956-add3-adeb094ebd20",
+    "issue_date": "2026-02-06 16:57:07",
+    "supplier_contact": "6264460405",
+    "mode_of_send": "WhatsApp"
+  },
+  "file": null
+}
+
+[2026-02-02T11:28:56.387Z]
+{
+  "api": "PUT /api/issue_po",
+  "body": {
+    "indent_id": "4c0a8de5-878c-4956-add3-adeb094ebd20",
+    "issue_date": "2026-02-06 16:58:56",
+    "supplier_contact": "6264460405",
+    "mode_of_send": "WhatsApp"
+  },
+  "file": null
+}

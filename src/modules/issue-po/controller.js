@@ -79,7 +79,7 @@ export const updateIssuePo = async (req, res) => {
         i.material_name,
         i.quantity,
         i.unit,
-        i.delivery_date,
+        ip.issue_date,
         ip.supplier_contact
       FROM indents i
       JOIN issue_po ip ON ip.indent_id = i.id
@@ -106,7 +106,7 @@ export const updateIssuePo = async (req, res) => {
           material: indent.material_name,
           quantity: `${indent.quantity} ${indent.unit}`,
           // delivery_date: indent.delivery_date,
-          delivery_date: formatDateTime(indent.delivery_date),
+          issue_date: formatDateTime(indent.issue_date),
 
         });
 

@@ -13,33 +13,6 @@ export const getAllIssuePoService = async () => {
 };
 
 
-// export const updateIssuePoService = async (payload) => {
-//   const {
-//     indent_id,
-//     issue_date,
-//     supplier_contact,
-//     mode_of_send,
-//     attachment,
-//   } = payload;
-
-//   const result = await db.query(
-//     UPDATE_ISSUE_PO,
-//     [
-//       issue_date,
-//       supplier_contact,
-//       mode_of_send,
-//       attachment,
-//       indent_id,
-//     ]
-//   );
-
-//   if (result.rowCount === 0) {
-//     throw new Error("Issue PO not found for this indent");
-//   }
-
-//   return result.rows[0];
-// };
-
 
 
 export const updateIssuePoService = async (payload) => {
@@ -55,7 +28,7 @@ export const updateIssuePoService = async (payload) => {
     UPDATE issue_po
     SET
       actual_at = NOW(),
-      issue_date = $1,
+      issue_date = ($1::date + CURRENT_TIME),
       supplier_contact = $2,
       mode_of_send = $3,
       time_delay = (NOW() - planned_at)

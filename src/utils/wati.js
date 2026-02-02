@@ -17,7 +17,7 @@ export const sendPOWhatsApp = async (data) => {
       { name: "po_number", value: data.po_number },
       { name: "material_name", value: data.material },
       { name: "quantity", value: data.quantity },
-      { name: "delivery_date", value: data.delivery_date },
+      { name: "delivery_date", value: data.issue_date },
     ],
   };
 
