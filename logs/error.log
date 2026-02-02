@@ -1,0 +1,33 @@
+
+[2026-01-29T06:51:49.233Z]
+{
+  "source": "WATI",
+  "error": "parameters field is missing/wrong"
+}
+
+[2026-01-29T06:51:49.235Z]
+{
+  "api": "PUT /api/issue_po",
+  "error": "parameters field is missing/wrong",
+  "stack": "Error: parameters field is missing/wrong\n    at sendPOWhatsApp (file:///D:/Botivate/PurchaseManagementSystem-FMS--main/backend/src/utils/wati.js:111:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async updateIssuePo (file:///D:/Botivate/PurchaseManagementSystem-FMS--main/backend/src/modules/issue-po/controller.js:86:25)"
+}
+
+[2026-01-29T06:52:01.190Z]
+{
+  "source": "WATI",
+  "error": "parameters field is missing/wrong"
+}
+
+[2026-01-29T06:52:01.191Z]
+{
+  "api": "PUT /api/issue_po",
+  "error": "parameters field is missing/wrong",
+  "stack": "Error: parameters field is missing/wrong\n    at sendPOWhatsApp (file:///D:/Botivate/PurchaseManagementSystem-FMS--main/backend/src/utils/wati.js:111:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async updateIssuePo (file:///D:/Botivate/PurchaseManagementSystem-FMS--main/backend/src/modules/issue-po/controller.js:86:25)"
+}
+
+[2026-01-29T07:25:23.222Z]
+{
+  "api": "PUT /api/issue_po",
+  "error": "Issue PO not found for this indent",
+  "stack": "Error: Issue PO not found for this indent\n    at updateIssuePoService (file:///D:/Botivate/PurchaseManagementSystem-FMS--main/backend/src/modules/issue-po/services.js:50:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async updateIssuePo (file:///D:/Botivate/PurchaseManagementSystem-FMS--main/backend/src/modules/issue-po/controller.js:48:20)"
+}
