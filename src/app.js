@@ -42,5 +42,9 @@ app.use("/api/cancel", cancelStage);
 app.use("/api/create-user", authRoutes);
 app.use("/api/auth", login);
 
+app.get("/health", (req, res) => {
+  res.status(200).send("OK");
+});
+
 
 export default app;
